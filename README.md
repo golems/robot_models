@@ -15,6 +15,7 @@ Objects
 -------
 
 ALL THE FOLLOWING OBJECTS DO NOT HAVE INERTIA INFORMATION ACCURATE! 
+
 1. **MG_table:** Motion Grammar Lab table (roughly with the same dimensions)
 2. **utility_cart:** Cart to carry food
 3. **wine:** Wine bottle with 1.25x normal size
