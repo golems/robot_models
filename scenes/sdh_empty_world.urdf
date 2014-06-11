@@ -1,0 +1,10 @@
+<world name="sdh_empty_world">
+
+  <include filename="../robots/sdh/urdf/sdh.urdf" model_name="sdh"/> 
+
+  <entity model="sdh" name="sdh">
+    <origin xyz="0.0 0.0 0.5" rpy="0 0 0"/>
+  </entity>
+
+
+</world>
