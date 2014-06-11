@@ -1,0 +1,10 @@
+<world name="lwa4d_empty_world">
+
+  <include filename="../robots/lwa4d/urdf/lwa4d.urdf" model_name="lwa4d"/> 
+
+  <entity model="lwa4d" name="lwa4d">
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  </entity>
+
+
+</world>
