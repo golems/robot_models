@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!-- @file 03-World-IK.urdf -->
+<!-- @author Jon Scholz -->
+<!-- @date August 7, 2014 -->
+<!-- @brief -->
+ 
+<world name="techway">
+	
+	<!-- Include the models by including either the complete urdf or referencing the file name -->
+	<include filename="../robots/krang/urdf/Krang.urdf" model_name="krang"/>
+	<entity model="krang" name="Krang"> <origin xyz="0.0 0.0 0.267" rpy="1.5708 0 -1.5708"/> </entity>
+
+	<include filename="../objects/utility_cart/urdf/utility_cart.urdf" model_name="cart"/> 
+	<entity model="cart" name="cart">
+		<origin xyz="-0.80 0.48 0.01" rpy="0 0 0"/>
+	</entity>
+
+	<include filename="../objects/office_chair_1/urdf/office_chair_1.urdf" model_name="office_chair_1"/> 
+	<entity model="office_chair_1" name="office_chair_1">
+		<origin xyz="0.80 0.68 0.01" rpy="0 0 0"/>
+	</entity>
+
+</world> 
